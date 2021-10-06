@@ -15,7 +15,7 @@ on:
 
 jobs:
   PREZ:
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: Setup Python
